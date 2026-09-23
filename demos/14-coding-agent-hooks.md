@@ -3,7 +3,7 @@
 > [!NOTE]
 > This is a demo so it means that the trainer has to run the demo himself
 
-In this demo, we'll use GitHub Copilot **hooks** to execute a custom bash/PowerShell script automatically when a Copilot agent session starts. The hook will print **"Hey there!"** when the session begins.
+In this demo, we'll use GitHub Copilot **hooks** to execute a custom bash/PowerShell script automatically when a Copilot agent session starts. The hook will print session start time when the session begins.
 
 Hooks allow you to extend and customize agent behavior by executing shell commands at key points during execution—such as session start, session end, prompt submission, or tool use.
 
