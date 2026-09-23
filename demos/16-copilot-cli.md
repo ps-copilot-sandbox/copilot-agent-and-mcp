@@ -252,8 +252,13 @@ This demo shows how to combine the GitHub Copilot CLI `/fleet` command with the 
 Inside the interactive Copilot session, register the Azure MCP Server:
 
 ```
-/mcp add azure -- npx -y @azure/mcp@latest server start
+/mcp add 
 ```
+- Name: azure (should auto populate)
+- Type: STDIO (default)
+- Start Command: npx -y @azure/mcp@latest server start
+
+save the configuration and exit MCP configuration.
 
 The Azure MCP Server and its 40+ Azure service tools are now available in your session. Confirm they loaded:
 
