@@ -8,6 +8,7 @@ This document quickly describes the content of the demo. It is written for the e
 ## Prerequisites
 
 - A GitHub account with Copilot enabled, access to Copilot Cloud Agent and access to the Agent Mode.
+- ***Copilot cloud agent won’t work with personal repositories for EMU accounts. If you’re using EMU, the repository needs to be owned by your organization.***
 - An IDE with GitHub Copilot Chat enabled and configured to use Agent Mode.
 - A GitHub account and an IDE with access to MCP server.
 
